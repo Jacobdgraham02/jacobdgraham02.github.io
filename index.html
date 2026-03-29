@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8"/>
+            <title>Jacob Graham Portfolio</title>
+            <meta name="author" content="Jacob Graham, jakegraham54@gmail.com"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <meta name="description" content="A road map of my academic and professional career"/>
+            <meta name="keywords" content="Jacob Graham Portfolio"/>
+            <meta name="robots" content="index,follow"/>
+            <meta property="og:type" content="article"/>
+            <meta property="og:title" content="Jacob Graham Portfolio"/>
+            <meta property="og:description" content="A road map of my academic and professional career"/>
+            <meta property="og:image" content="images/site-icon.png"/>
+            <meta property="og:url" content="https://jacobdamiangraham.com"/>
+            <meta property="og:site_name" content="Jacob Graham Portfolio"/>
+            <link rel="canonical" href="https://jacobdamiangraham.com/#"/>
+            <link rel="stylesheet" href="styles/index.css"/>
+            <script src="https://kit.fontawesome.com/d6b02088c1.js" crossorigin="anonymous"></script>
+            <link rel="shortcut icon" href="images/site-icon.png" type="image/x-icon"/>
+        </head>
+
+        <body>
+            <header id="header" class="header">
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+                <ul class="menu">
+                    <li><img id="menu_links_image" src="images/site-icon.png" alt="My website logo embedded in the menu containing links to websites"/></li>
+                    <li><a href="#" data-section="#home"><i class="fa fa-user" title="Click this menu item to go to my portfolio's landing page"></i><span> Home</span></a></li>
+                    <li><a href="#" data-section="#about"><i class="fa fa-address-card" title="Click this menu item to go to my portfolio's about page, where you can find out more about me"></i><span> About</span></a></li>
+                    <li><a href="#" data-section="#education"><i class="fa-solid fa-book" title="Click this menu item to go to my portfolio's project page, where you can find out more about my education"></i><span> Education</span></a></li>
+                    <li><a href="#" data-section="#projects"><i class="fa fa-code" title="Click this menu item to go to my portfolio's project page, where you can find out more about some of the projects I have worked on"></i><span> Projects</span></a></li>
+                </ul>
+          
+            </header>
+
+            <main id="main">
+                <section id="home" class="website_section current_section_open">
+                    <div id="personal_info">
+                         <figure id="personal_picture_figure">
+                            <img src="images/GradPhoto.png" alt="A picture of me" id="grad_photo"/>
+                            <figcaption>
+                                <h1>Jacob Graham</h1>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    
+                    <div id="typeit_text_container">
+                        <span id="text_container"><span id="text"></span></span>
+                    </div>
+                <div id="social_media_container">
+                    <div id="social_media">
+                        <figure>
+                            <a href="https://www.linkedin.com/in/jacobgraham02/" title="A clickable icon link that will open my LinkedIn profile for you to look at." class="fa fa-linkedin link-icons"></a>
+                        </figure>
+        
+                        <figure>
+                            <a href="https://github.com/JacobGraham02" title="A clickable icon link that will open my GitHub profile where you can look at my code repositories." class="fa fa-github link-icons"></a>
+                        </figure>
+        
+                        <figure>
+                             <a href="mailto:jakegraham54@gmail.com" title="A clickable icon link that will open your computer's mailing software so you can send me an email" class="fa fa-envelope link-icons"></a>
+                        </figure>
+                    </div>
+                </div>
+
+                </section>
+
+                <section id="about" class="website_section">
+                    <h2>About</h2>
+                    <span class="underline_for_h2"></span>
+
+                    <div id="about_section_intro">
+                        <h3>My name is Jacob Graham, and I am an <span id="computer_science_student_sentence">Honours Computer Science</span> graduate</h3>
+                    </div>
+
+                    <article id="about_me_article">
+                        <p class="about_me_paragraph"><span class="about_me_paragraph_span"></span> 
+                            Hello! I am a recent Honours Computer Science graduate who graduated in June 2024 with first-class standing. I have an Honours
+                            Computer Science degree from Lakehead University, and a Computer Programming diploma from Georgian College.
+                        </p>
+
+                        <p class="about_me_paragraph"><span class="about_me_paragraph_span"></span> 
+                            I am a diligent and dynamic individual with a strong academic background and hands-on experience in software development. My professional experience includes a Quality Engineering internship at TD Canada Trust, where I improved project completion time by 30% through enhanced documentation and increased code coverage by 15% with automated test suites. I also provided personalized academic support as a private tutor, helping students develop effective study strategies.
+                        </p>
+
+                        <p class="about_me_paragraph"><span class="about_me_paragraph_span"></span> 
+                            My software development journey encompasses the complete software lifecycle, from design and implementation to testing and stakeholder presentations. I am proficient in multiple programming languages, including Java, JavaScript, PHP, SQL, HTML5, CSS, and TypeScript. My specialization lies in developing web and desktop applications, with additional experience in mobile application development using Java.
+                        </p>
+                    </article>
+                </section>
+
+                <section id="projects" class="website_section">
+                    <h2>Projects</h2>
+                    <span class="underline_for_h2"></span>
+
+                    <article id="projects_container">
+                        <div id="project1" class="project_div">
+
+                            <figure>
+                                <img src="images/DiscordBotPicture.PNG" alt="A picture of my Discord bot" title="A Discord helper bot aimed at relieving some of the stress that comes with school, such as keeping track of due dates"/>
+                            </figure>  
+
+                            <article class="project_description">
+                                <p><strong>Student Bot Helper</strong></p>
+                                <p>I developed this project for the Lakehead University CS 2020 - 2024 class to assist students in their studies by relieving them of menial and repetitive work, such as keeping track of due dates.</p>
+                                <p>Student Bot Helper is a Discord bot which acts as a platform for all-things related to school: due dates, class times, homework help, and even directions via Google Maps! It was developed using Discord's REST API, TypeScript, Node.js, MySQL, Microsoft Azure, the Google Places API, and the Google Directions API.</p>
+                                <p>This Discord bot uses Discord's REST API to allow the user to interact with the Discord bot. From there, users can use the '/help' command to find out more.</p>
+                                <p><a href="https://github.com/JacobGraham02/StudentBotHelper" alt="A github uri link to my Student Bot Helper https://github.com/JacobGraham02/StudentBotHelper">Click here if you would like to learn more about Student Bot Helper by viewing the GitHub repository</a></p>
+                            </article>
+                        </div>
+                        
+                        <div id="project3" class="project_div">
+                            <figure>
+                                <img src="images/SCUMChatMonitorBot.PNG" alt="In-game bot that integrates with SCUM servers to make players' experience more dynamic, interactive, and intuitive" title="In-game bot that integrates with SCUM servers to make players' experience more dynamic, interactive, and intuitive"/>
+                            </figure>  
+
+                            <article class="project_description">
+                                <p><strong>Scum Chat Monitor</strong></p>
+                                <p>I developed this project for my personal SCUM server to make players' experience more intuitive by <i>automating the boring parts</i>, providing an in-game chat integration bot.</p>
+                                <p>Scum Chat Monitor is an in-game integration bot which adds the following features to the base game: new player teleportation to safe zone, welcome package, in-game kit packages, Discord bot integration, and more!</p>
+                                <p>It was developed using Discord's REST API, Node.js, JavaScript, MongoDB, Windows Powershell, and GPortal's FTP Server.</p>
+                                <p><a href="https://github.com/JacobGraham02/SCUMChatMonitor" alt="A github uri link to my Scum Bot Helper project">Click here if you would like to learn more about Scum Chat Monitor by viewing the GitHub repository</a></p>
+                            </article>
+                        </div> 
+
+                        <div id="project4" class="project_div">
+                            <figure>
+                                <img src="images/SASZombieAssault.PNG" alt="A mobile application which seeks to re-create the experience of playing SAS Zombie Assault on a mobile device instead of a computer" title="A mobile application which seeks to re-create the experience of playing SAS Zombie Assault on a mobile device instead of a computer"/>
+                            </figure>
+
+                            <article class="project_description">
+                                <p><strong>Monster Assault</strong></p>
+                                <p>I am currently developing Monster Assault as a mobile game which seeks to re-create the experience of recently-deleted SAS Zombie Assault 1, a game which was only available on a computer.</p>
+                                <p>Relative to my other 2 projects, Monster Assault is light on the technologies used, only utilizing Java and LibGDX. However, I am leaning heavily into learning all aspects of mobile application development, from appealing user interface design to proper application architecture and back-end integrations.</p>
+                                <p><a href="https://github.com/JacobGraham02/MonsterAssault" alt="A mobile application which seeks to re-create the experience of playing SAS Zombie Assault on a mobile device instead of a computer. Visit at https://github.com/JacobGraham02/MonsterAssault">Click here if you would like to learn more about Monster Assault by viewing the GitHub repository</a></p>
+                            </article>
+                        </div>
+                    </article>
+                </section>
+
+                <section id="education" class="website_section">
+                    <h2>Education</h2>
+                    <div id="education_and_learning_container">
+                        <div id="education_container"> 
+                            <div class="timeline-container">
+                                <div class="timeline">
+                                    <div class="timeline-item-container">
+                                        <div class="timeline-item" data-year="2024">
+                                            <article id="education1" class="education_article">
+                                                <span class="year">2022</span>
+                                                <h3>Georgian College</h3>
+                                                <p>Computer Programming Diploma</p>
+                                            </article>
+                                        </div>
+                                        <div class="education_content">
+                                            <ul class="education_content_list">
+                                                <li>Recipient for the 2021 and 2022 Dean's list with an academic average of over 84%</li>
+                                                <li>Relevant coursework: ASP.NET programming, Server-Side JavaScript</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item-container">
+                                        <div class="timeline-item" data-year="2024">
+                                            <article id="education2" class="education_article">
+                                                <span class="year">2024</span>
+                                                <h3>Lakehead University</h3>
+                                                <p>First-Class Honours Bachelor of Science Degree in Computer Science</p>
+                                            </article>
+                                        </div>
+                                        <div class="education_content">
+                                            <ul class="education_content_list">
+                                                <li>Recurring scholarship for an academic average of over 84%</li>
+                                                <li>Relevant coursework: Algorithms and Data Structures, Advanced Database, Advanced Java, Client-Side JavaScript</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <footer id="footer">
+                <section>
+                    <small>&copy; Jacob Graham 2023. All rights reserved</small>
+                </section>
+            </footer>
+
+            <script src="https://unpkg.com/typeit@8.6.0/dist/index.umd.js"></script>
+            <script src="scripts/index.js"></script>
+        </body>
+    </html>
