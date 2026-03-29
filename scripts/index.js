@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const current_section = "current_section_open";
     const current_link_visiting = "add_active_link_style";
     const project_divs = document.querySelectorAll('.project_div');
-    const home_page_sentences = ['Honours Computer Science graduate', 'Mobile application developer', 'Quality Engineer'];
+    const home_page_sentences = ['Honours Computer Science graduate', 'Civilian Data Entry Clerk', 'Communications Operator'];
 
     menuBtn.addEventListener('change', function() {
         if (menuBtn.checked) {
