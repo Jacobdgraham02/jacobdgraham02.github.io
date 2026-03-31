@@ -12,14 +12,14 @@ body {
   display: grid;
   height: 100vh;
   max-height: 100vh;
-  width: 100vw;
-  max-width: 100vw;
+  width: 100%;
+  max-width: 100%;
   grid-template-columns: 1fr;
-  grid-auto-rows: minmax(min-content, max-content) 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
   grid-template-areas:
   "header"
   "main"
-  "main";
+  "footer";
 } 
 #main {
   overflow-x:hidden;
@@ -31,8 +31,9 @@ body {
   grid-area: header;
 }
 #footer {
-  display: none;
   grid-area: footer;
+  background: #efeff5;
+  padding: 1%;
 }
 .menu {
    font-size: 90%;
@@ -565,7 +566,6 @@ body {
   align-items: flex-start; /* Center-aligns the content */
 }
 
-
 .year {
   line-height: 30px; 
   color: black;
@@ -605,7 +605,7 @@ body {
     "header main main main main main"
     "header main main main main main"
     "header main main main main main"
-    "header main main main main main";
+    "header footer footer footer footer footer";
   }
   #header { 
     border-right: 1px solid #dcdcdc;
@@ -638,11 +638,6 @@ body {
       padding: 0;
       font-size: 150%;
     }
-    #footer {
-    max-height: 100%;
-    grid-area: footer;
-    }
-
     /* Education page */
     .timeline-item-container {
       display: flex;
