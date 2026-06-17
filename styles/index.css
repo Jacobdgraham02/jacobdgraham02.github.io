@@ -696,6 +696,7 @@ body {
     #skills {
       font-size: 90%;
     }
+    
     #education_and_learning_container, #experience_container, #volunteer_container, #certificate_container, #language_container, #programming_projects_container {
       height: 68vh;
       flex-direction: row;
