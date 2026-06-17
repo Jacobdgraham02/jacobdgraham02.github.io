@@ -379,7 +379,7 @@ body {
     text-align: center;
   }
 
-  .education_article, .experience_article, .volunteer_article, .certificate_article, .language_article {
+  .education_article, .experience_article, .volunteer_article, .certificate_article, .language_article, .programming_project_article {
     padding: 2%;
   }
   .learning_article {
@@ -389,14 +389,14 @@ body {
   button {
     display: block;
   }
-  #education_and_learning_container, #experience_container, #volunteer_container, #certificate_container, #language_container {
+  #education_and_learning_container, #experience_container, #volunteer_container, #certificate_container, #language_container, #programming_projects_container {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
     width: 95%;
   }
-  .education_article .schoolTopics, .experience_article, .volunteer_article, .certificate_article, .language_article {
+  .education_article .schoolTopics, .experience_article, .volunteer_article, .certificate_article, .language_article, .programming_project_article {
     line-height: 1.2;
   }
   .education_heading {
@@ -512,7 +512,7 @@ body {
     width: 100%;
 }
 
-.education_article, .experience_article, .volunteer_article, .certificate_article, .language_article {
+.education_article, .experience_article, .volunteer_article, .certificate_article, .language_article, .programming_project_article {
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -524,7 +524,7 @@ body {
   justify-content: flex-start;
 }
 
-.education_content, .experience_content, .volunteer_content, .certificate_content, .language_content {
+.education_content, .experience_content, .volunteer_content, .certificate_content, .language_content, .programming_projects_content {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -537,11 +537,11 @@ body {
   margin-left: 0;
 }
 
-.education_content_list, .experience_content_list, .volunteer_content_list, .certificate_content_list, .language_content_list {
+.education_content_list, .experience_content_list, .volunteer_content_list, .certificate_content_list, .language_content_list, .programming_projects_content_list {
   list-style-type: none;
 }
 
-.education_content_list li, .experience_content_list li, .volunteer_content_list li, .certificate_content_list li, .language_content_list li {
+.education_content_list li, .experience_content_list li, .volunteer_content_list li, .certificate_content_list li, .language_content_list li, .programming_projects_content_list li {
   margin: 5%;
 }
 
@@ -646,7 +646,7 @@ body {
       align-items: flex-start;
     }
 
-    .timeline_item_container .education_content, .timeline_item_container .experience_content, .volunteer_content, .certificate_content, .language_content {
+    .timeline_item_container .education_content, .timeline_item_container .experience_content, .volunteer_content, .certificate_content, .language_content, .programming_projects_content {
       display: flex;
     }
 
@@ -654,19 +654,19 @@ body {
       max-width: 40%;
     }
 
-    .education_content, .experience_content, .volunteer_content, .certificate_content, .language_content {
+    .education_content, .experience_content, .volunteer_content, .certificate_content, .language_content, .programming_projects_content {
       justify-content: left;
       align-items: flex-start;
       margin-left: 1%;
     }
 
-    .education_content_list, .experience_content_list, .volunteer_content_list, .certificate_content_list, .language_content_list {
+    .education_content_list, .experience_content_list, .volunteer_content_list, .certificate_content_list, .language_content_list, .programming_projects_content_list {
       justify-content: left;
       align-items: left;
       text-align: left;
     }
 
-    .education_content_list li, .experience_content_list li, .volunteer_content_list li, .certificate_content_list li, .language_content_list li {
+    .education_content_list li, .experience_content_list li, .volunteer_content_list li, .certificate_content_list li, .language_content_list li, .programming_projects_content_list li {
       margin: 0;
     }
 
@@ -696,7 +696,7 @@ body {
     #skills {
       font-size: 90%;
     }
-    #education_and_learning_container, #experience_container, #volunteer_container, #certificate_container, #language_container {
+    #education_and_learning_container, #experience_container, #volunteer_container, #certificate_container, #language_container, #programming_projects_container {
       height: 68vh;
       flex-direction: row;
     }
