@@ -202,12 +202,6 @@ body {
   #picture_of_me {
     border-radius: 10%;
   }
-  #social_media_container {
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   #social_media {
     display: flex;
     justify-content: space-evenly;

@@ -9,16 +9,15 @@ const project_divs = document.querySelectorAll('.project_div');
 const home_page_sentences = 
 [
     'Honours Computer Science graduate', 
-    'Civilian Data Entry Clerk', 
     'Communications Operator', 
     'Software Developer',
     'Community Volunteer'
 ];
 menuBtn.addEventListener('change', function() {
     if (menuBtn.checked) {
-        menu.style.left = '0'; // Slide in the menu
+        menu.style.left = '0';
     } else {
-        menu.style.left = '-100%'; // Hide the menu
+        menu.style.left = '-100%';
     }
 });
 const typeit_element = new TypeIt("#text", {
@@ -27,7 +26,7 @@ const typeit_element = new TypeIt("#text", {
 });
 
 for (const sentence_string of home_page_sentences) {
-    typeit_element.type(sentence_string).pause(500).delete(sentence_string.length).pause(500);
+    typeit_element.type(sentence_string).pause(400).delete(sentence_string.length).pause(400);
 }
 typeit_element.go();
 
@@ -74,11 +73,9 @@ function removeStylingFromActiveLink(link, t) {
 }
 document.querySelectorAll('.timeline-item').forEach(item => {
     item.addEventListener('click', () => {
-        // Remove active class from all items
         document.querySelectorAll('.timeline-item').forEach(innerItem => {
             innerItem.classList.remove('active');
         });
-        // Add active class to the clicked item
         item.classList.add('active');
     });
 });
