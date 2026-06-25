@@ -42,7 +42,7 @@ function closeMenu() {
     menu_links.forEach(link => 
         link.addEventListener("click", function() {
             menuBtn.checked = false;
-    }))
+    }));
 }
 function setSectionToActive() {
     menu_links.forEach(link => {

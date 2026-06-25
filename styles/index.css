@@ -56,8 +56,8 @@ body {
   padding: 20px 20px; /* Adjusts padding for better spacing */
 }
 
-/* Grad photo on main home page */
-#grad_photo {
+/* Picture of me on main home page */
+#my_picture {
   width: 30%;
   height: 30%;
 }
@@ -87,7 +87,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 2px 2px 2px #ff0000;
-    transition: text-shadow 0.15;
+    transition: text-shadow 0.15s;
     -webkit-transition: text-shadow 0.15s;
   }
   .add_active_link_style {
@@ -238,7 +238,7 @@ body {
   
   #getResumeButton:hover,
   #getResumeButton:focus {
-    transition: background 0.25 ease-in-out;
+    transition: background 0.25s ease-in-out;
     color: rgba(0, 0, 0, 0.65);
   }
   
@@ -557,7 +557,7 @@ body {
   margin-top: 20px; /* Space between items */
   display: flex; /* Enables flexbox layout */
   flex-direction: column; /* Stacks content vertically on mobile */
-  align-items: flex-start; /* Center-aligns the content */
+  align-items: center;
 }
 
 .year, .proficiency {
@@ -583,6 +583,23 @@ body {
 
 .timeline_item {
   flex-direction: row;
+}
+.multiple_experiences_same_company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.multiple_experiences_same_company .article_year_container {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+.timeline_item:has(article.multiple_experiences_same_company) {
+  flex-direction: column;
+  align-items: center;
 }
 
 .timeline_item.active {
@@ -656,7 +673,6 @@ body {
 
     .education_content_list, .experience_content_list, .volunteer_content_list, .certificate_content_list, .language_content_list, .programming_projects_content_list {
       justify-content: left;
-      align-items: left;
       text-align: left;
     }
 
