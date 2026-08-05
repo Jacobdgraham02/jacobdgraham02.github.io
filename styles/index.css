@@ -368,6 +368,12 @@ button {
   margin: 0
 }
 
+.project_link {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .project_description p strong {
   font-size: 24px;
 }
@@ -516,7 +522,7 @@ button {
   width: 80%;
   min-width: 40%;
   padding: 10px;
-  background: #FFF;
+  background: rgba(0,0,0,0.05);
   border-radius: 4px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.1);
   margin-top: 20px; /* Space between items */
@@ -716,4 +722,7 @@ button {
       height: 100%;
       width: 100%;
     }
-  }
+}
+@media (prefers-color-scheme: dark) {
+
+}
